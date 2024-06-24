@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prueba_NET.Application.Services
+namespace Prueba_NET.Infrastructure.Services
 {
     public class ProductService : IProductService
     {

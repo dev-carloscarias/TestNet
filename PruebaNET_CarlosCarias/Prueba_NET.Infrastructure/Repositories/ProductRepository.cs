@@ -1,19 +1,14 @@
 ﻿using Prueba_NET.Application.Interfaces;
 using Prueba_NET.Domain.Entities;
 using Prueba_NET.Infrastructure.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prueba_NET.Infrastructure.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly AplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public ProductRepository(AplicationDbContext context)
+        public ProductRepository(ApplicationDbContext context)
         {
             _context = context;
         }

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj": {}
+    "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Tests\\Prueba_NET.Tests.csproj": {}
   },
   "projects": {
     "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj": {
@@ -325,6 +325,107 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Tests\\Prueba_NET.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Tests\\Prueba_NET.Tests.csproj",
+        "projectName": "Prueba_NET.Tests",
+        "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Tests\\Prueba_NET.Tests.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "P:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj": {
+                "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj"
+              },
+              "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj": {
+                "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj"
+              },
+              "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj": {
+                "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
             }
           },
           "imports": [
