@@ -64,13 +64,21 @@ El proyecto está estructurado en varias capas para seguir el principio de separ
 ### Paso 1: Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/PruebaNET_CarlosCarias_API.git
+git clone https://github.com/dev-carloscarias/TestNet.git
 cd PruebaNET_CarlosCarias_API
 ```
 
 ### Paso 2: Configurar la base de datos
 
-En el archivo 'appsettings.json' dentro del proyecto PruebaNET_CarlosCarias_API debe crearse la base de datos TestDB luego deben ejecutarse las migraciones dentro del proyecto PruebaNET_CarlosCarias_API con los siguientes comando:
+En el archivo 'appsettings.json' dentro del proyecto PruebaNET_CarlosCarias_API debe modificarse la conexion a su conexion local como este ejemplo:
+
+```bash
+  "DefaultConnection": "Server=MSI-LITO;Database=TestDB;Integrated Security=True TrustServerCertificate=True;"
+```
+
+En SQL Server crear una base de datos llamada TestDB
+
+Luego dentro del proyecto ./TestNet/PruebaNET_CarlosCarias/Prueba_NET.Infrastructure abrir el cmd con los siguientes comandos:
 
 ```bash
 dotnet ef migrations add InitialCreate --startup-project ../PruebaNet_CarlosCarias_API
@@ -83,4 +91,29 @@ Luego en la base de datos correr el siguiente comando para crear los status
 INSERT INTO ProductStatuses (StatusName) VALUES
 ('Inactive'),
 ('Active');
+```
+
+### Paso 3: Ejecutar el proyecto
+
+Ejecutar el proyecto PruebaNET_CarlosCarias.sln para levantar el API en Visual Studio 2022 local con .NET 8
+
+### Paso 3: Correr el Frontend
+
+Asegurarse de tener estas versiones de NPM y Angular CLI:
+
+```bash
+Node: v16.20.1
+Angular CLI: 16.2.14
+```
+
+Instalar paquetes
+
+```bash
+npm install
+```
+
+Correr el siguiente comando para levantar el proyecto:
+
+```bash
+ng serve
 ```
