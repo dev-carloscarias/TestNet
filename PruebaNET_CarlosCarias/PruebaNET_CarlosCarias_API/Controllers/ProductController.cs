@@ -10,7 +10,7 @@ using Swashbuckle.AspNetCore.Annotations;
 namespace PruebaNET_CarlosCarias_API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/products")]
     public class ProductController: ControllerBase
     {
         private readonly IMediator _mediator;
@@ -38,6 +38,25 @@ namespace PruebaNET_CarlosCarias_API.Controllers
             var statuses = _productStatusService.GetProductStatuses();
             product.StatusName = statuses.ContainsKey(product.Status) ? statuses[product.Status] : "Unknown";
             return Ok(product);
+        }
+
+        [HttpGet]
+        [SwaggerOperation(Summary = "Listar productos", Description = "Retorna un listado de todos los productos")]
+        public async Task<IActionResult> Get()
+        {
+            _logger.LogInformation("Fetching all products");
+            var products = await _mediator.Send(new GetAllProductsQuery());
+            if (products == null)
+            {
+                _logger.LogWarning("No Products");
+                return NotFound();
+            }
+            var statuses = _productStatusService.GetProductStatuses();
+            foreach (var product in products)
+            {
+                product.StatusName = statuses.ContainsKey(product.Status) ? statuses[product.Status] : "Unknown";
+            }
+            return Ok(products);
         }
 
         [HttpGet("statuses")]

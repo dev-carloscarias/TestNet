@@ -4,6 +4,7 @@
 *.userosscache
 *.sln.docstates
 .vs/
+Frontend/frontend-angular/node_modules/
 [Bb]in/
 [Dd]ebug/
 [Dd]ebugPublic/

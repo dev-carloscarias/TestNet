@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+aHCh4qshU=",
+  "dgSpecHash": "v995/qaowoI=",
   "success": true,
-  "projectFilePath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj",
+  "projectFilePath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

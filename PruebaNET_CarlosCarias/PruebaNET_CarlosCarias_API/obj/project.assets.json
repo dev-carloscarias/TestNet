@@ -5218,11 +5218,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj",
+      "projectUniqueName": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj",
       "projectName": "PruebaNET_CarlosCarias_API",
-      "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj",
+      "projectPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\PruebaNET_CarlosCarias_API\\PruebaNET_CarlosCarias_API.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\PruebaNET_CarlosCarias_API\\obj\\",
+      "outputPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\PruebaNET_CarlosCarias_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "P:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5244,11 +5244,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj": {
-              "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj"
+            "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj": {
+              "projectPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj"
             },
-            "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj": {
-              "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj"
+            "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj": {
+              "projectPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj"
             }
           }
         }

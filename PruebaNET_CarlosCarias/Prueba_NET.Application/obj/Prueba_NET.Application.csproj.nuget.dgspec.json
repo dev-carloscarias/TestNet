@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj": {}
+    "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj": {}
   },
   "projects": {
-    "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj": {
+    "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj",
+        "projectUniqueName": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj",
         "projectName": "Prueba_NET.Application",
-        "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj",
+        "projectPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Application\\Prueba_NET.Application.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Application\\obj\\",
+        "outputPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "P:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj": {
-                "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj"
+              "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj": {
+                "projectPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj": {
+    "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj",
+        "projectUniqueName": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj",
         "projectName": "Prueba_NET.Domain",
-        "projectPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj",
+        "projectPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Domain\\Prueba_NET.Domain.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Domain\\obj\\",
+        "outputPath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "P:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

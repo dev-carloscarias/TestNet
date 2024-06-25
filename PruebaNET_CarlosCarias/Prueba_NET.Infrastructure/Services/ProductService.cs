@@ -30,5 +30,10 @@ namespace Prueba_NET.Infrastructure.Services
         {
             await _repository.UpdateAsync(product);
         }
+
+        public async Task<List<Product>> GetAllAsync()
+        {
+            return await _repository.GetAllAsync();
+        }
     }
 }

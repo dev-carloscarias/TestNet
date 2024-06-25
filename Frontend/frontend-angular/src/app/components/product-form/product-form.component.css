@@ -1,0 +1,17 @@
+.product-form .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-form .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.product-form .btn {
+  width: 48%;
+  margin-top: 10rem;
+}

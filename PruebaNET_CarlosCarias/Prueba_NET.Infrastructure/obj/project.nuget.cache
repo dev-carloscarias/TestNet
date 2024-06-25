@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S3Hh/reh2fE=",
+  "dgSpecHash": "OzMtPxHijLQ=",
   "success": true,
-  "projectFilePath": "W:\\CODE\\C#\\PruebaNETCS\\TestNet\\PruebaNet_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj",
+  "projectFilePath": "W:\\CODE\\CS\\PruebaNETCS\\TestNet\\PruebaNET_CarlosCarias\\Prueba_NET.Infrastructure\\Prueba_NET.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

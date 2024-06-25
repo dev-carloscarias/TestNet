@@ -7,16 +7,28 @@ using Prueba_NET.Application.Commands;
 using Prueba_NET.Infrastructure.Services;
 using Swashbuckle.AspNetCore.Annotations;
 using PruebaNET_CarlosCarias_API.Controllers;
+using Prueba_NET.Application.Queries;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 builder.Services.AddMemoryCache();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductStatusService, ProductStatusService>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateProductHandler).Assembly));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetAllProductsHandler).Assembly));
 
 
 builder.Logging.ClearProviders();
@@ -48,10 +60,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
         }));
 
 var app = builder.Build();
-
+app.UseCors("AllowAllOrigins");
 app.UseMiddleware<RequestTimingMiddleware>();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
